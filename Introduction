@@ -1,0 +1,17 @@
+'''
+class - template where obj created
+objects - instance of class
+method - function defined in class
+attribute - a variable bound to an object
+'''
+
+class Person:
+    def __init__(self, name, age):
+        self.x = name
+        self.y = age
+
+
+p1 = Person("John", 36)
+
+print(p1.x)
+print(p1.y)
